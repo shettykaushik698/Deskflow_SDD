@@ -1,0 +1,79 @@
+{
+  "spaces": [
+    {
+      "id": "98c6a6d3-1aef-4a48-8f50-21ff77c03715",
+      "code": "DESK-101",
+      "type": "desk",
+      "capacity": 1,
+      "has_monitor": true,
+      "is_active": true
+    },
+    {
+      "id": "c13d300e-a8a4-4d65-bd49-a8e83d18d413",
+      "code": "DESK-102",
+      "type": "desk",
+      "capacity": 1,
+      "has_monitor": false,
+      "is_active": true
+    },
+    {
+      "id": "67e54593-0053-4fcf-9e4b-d9567f701ab8",
+      "code": "DESK-103",
+      "type": "desk",
+      "capacity": 1,
+      "has_monitor": true,
+      "is_active": true
+    },
+    {
+      "id": "eabf0c71-ccb5-4b42-934c-0b10395840b8",
+      "code": "BOOTH-A",
+      "type": "booth",
+      "capacity": 2,
+      "has_monitor": false,
+      "is_active": true
+    },
+    {
+      "id": "58c5b652-740b-49d6-8245-d2156c1f54bc",
+      "code": "BOOTH-B",
+      "type": "booth",
+      "capacity": 2,
+      "has_monitor": true,
+      "is_active": true
+    },
+    {
+      "id": "c9e8f844-96d5-4914-a165-028f71f59e03",
+      "code": "CONF-MAIN",
+      "type": "meeting_room",
+      "capacity": 8,
+      "has_monitor": true,
+      "is_active": true
+    }
+  ],
+  "reservations": [
+    {
+      "id": "688ae5f1-3031-4802-92ee-1212356f8f80",
+      "space_id": "98c6a6d3-1aef-4a48-8f50-21ff77c03715",
+      "reserved_by": "Walk-up guest",
+      "start_time": "2026-10-02T05:35:03.311290",
+      "end_time": "2026-10-02T07:35:03.311297",
+      "guest_count": 1,
+      "amenities": [],
+      "status": "confirmed",
+      "created_at": "2026-10-02T05:35:03.311290"
+    },
+    {
+      "id": "62256838-c453-489e-b190-28bbade63918",
+      "space_id": "c13d300e-a8a4-4d65-bd49-a8e83d18d413",
+      "reserved_by": "Guest",
+      "start_time": "2026-10-02T06:42:00.000Z",
+      "end_time": "2026-10-02T19:43:00.000Z",
+      "guest_count": 2,
+      "amenities": [
+        "monitor",
+        "laptop"
+      ],
+      "status": "confirmed",
+      "created_at": "2026-10-02T05:42:11.380Z"
+    }
+  ]
+}
